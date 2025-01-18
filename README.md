@@ -1,0 +1,3 @@
+# Node.js Server Unresponsiveness
+
+This repository demonstrates a common issue in Node.js applications: unresponsiveness caused by long-running synchronous operations within request handlers.  The server.js file contains a simple HTTP server that simulates a long-running task, blocking the event loop and preventing it from handling subsequent requests.  The solution is provided in serverSolution.js which demonstrates asynchronous operation.
